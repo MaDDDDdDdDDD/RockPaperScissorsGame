@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+<body>
+<div class="w-full h-screen bg-zinc-900 flex flex-col ">
+    <form action="">
+    <div class="box flex justify-evenly p-10 bg-zinc-900">
+        <div id="rock" class=" border border-[3px] border-zinc-100 w-[14vw] h-[14vw] rounded-full bg-red-600 relative "><img class=" absolute top-1/2 left-1/2 w-[6vw] h-[6vw] -translate-x-[50%] -translate-y-[50%]" src="fist.png" alt=""/></div>
+        <div id="paper" class=" border border-[3px] border-zinc-100  w-[14vw] h-[14vw] rounded-full bg-red-600 relative"><img class="absolute top-1/2 left-1/2 w-[6vw] h-[6vw] -translate-x-[50%] -translate-y-[50%]" src="hand-paper.png" alt=""/></div>
+        <div id="scissors" class=" border border-[3px] border-zinc-100  w-[14vw] h-[14vw] rounded-full bg-red-600 relative "><img class="absolute top-1/2 left-1/2 w-[6vw] h-[6vw] -translate-x-[50%] -translate-y-[50%]" src="scissors.png" alt=""/></div>
+    </div>
+    <div><p></p></div>
+    <div class="mt-10 w-full items-center flex justify-evenly  text-white ">
+    <div class="gap-2 flex flex-col">
+        <h1 class="px-2.8 text-[5vw] text-green-600">0</h1>
+        <p class=" text-[2.5vw] ">YOU</p>
+    </div>
+    <div class="gap-2 flex flex-col">
+        <h1 class="px-3 text-[5vw] text-green-600 ">
+          0
+        </h1>
+        <p class="text-[3vw] ">
+        COMP
+        </p>
+    </div>
+</div>
+<div class="w-full  mt-16 flex justify-center items-center ">
+    <button id="resultButton" class="border border-[3px] border-zinc-100  rounded-3xl px-12 py-4 bg-green-300 font-bold text-blue ">Pick Your Move</button>
+</div>
+</form>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
